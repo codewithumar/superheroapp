@@ -18,7 +18,7 @@ import { useDispatch } from "react-redux";
 import {
   calculateFinalCracteristics,
   setAnswers,
-} from "../rudex/slices/QuestionsSlice";
+} from "../rudux/slices/QuestionsSlice";
 
 const cards = [
   { id: 1, color: "bg-surface-light" },

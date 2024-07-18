@@ -6,11 +6,11 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   setBestMatchClear,
   setInitialData,
-} from "../../rudex/slices/QuestionsSlice";
+} from "../../rudux/slices/QuestionsSlice";
 import Character from "../../components/Character";
 import Confetti from "../../components/Confetti";
-import { RootState } from "../../rudex/store";
-import { fetchSuperheroes } from "../../rudex/slices/SuperHerosSlice";
+import { RootState } from "../../rudux/store";
+import { fetchSuperheroes } from "../../rudux/slices/SuperHerosSlice";
 import Loader from "../../components/Loader";
 import { UnknownAction } from "@reduxjs/toolkit";
 

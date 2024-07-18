@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { RootState } from "../rudex/store";
+import { RootState } from "../rudux/store";
 import Loader from "./Loader";
 
 const Character = ({

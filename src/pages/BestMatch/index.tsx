@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { RootState } from "../../rudex/store";
+import { RootState } from "../../rudux/store";
 
 const CharacterDetailPage = () => {
   const [activeTab, setActiveTab] = useState("powerstats");
